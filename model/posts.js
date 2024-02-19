@@ -5,11 +5,6 @@ module.exports = {
             title: "Teste do Mural",
             description: "Descrição teste"
         },
-        {
-            id: "aaa",
-            title: "Teste do Mural",
-            description: "Descrição teste"
-        },
     ],
 
     getAll() {
