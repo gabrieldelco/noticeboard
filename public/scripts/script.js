@@ -15,7 +15,7 @@ function updatePosts() {
             let postElement = `<div id="${post.id}" class="card mb-4">
                                     <div class="d-flex justify-content-between card-header">
                                         <h5 class="card-title">${post.title}</h5>
-                                        <button id="${post.id}" type="button" onclick="deletePost()" class="btn btn-sm btn-outline-danger">X</button>
+                                        <button id="${post.id}" type="button" onclick="deletePost(this.id)" class="btn btn-sm btn-outline-danger">X</button>
                                     </div>
                                     <div class="card-body">
                                         <div class="card-text">${post.description}</div>
@@ -47,7 +47,12 @@ function newPost() {
     })
 }
 
-// function deletePost() {
-//     let id = document.getElementById()
+function deletePost(id) {
+    console.log(id);
+    const options = { method: "DELETE" }
+    fetch(`http://localhost:3000/api/del?id=${id}`, options).then(res => {
+        console.log(res);
+        updatePosts();
+    })
 
-// }
+}
