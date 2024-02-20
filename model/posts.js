@@ -1,9 +1,9 @@
 module.exports = {
     posts: [
         {
-            id: "sidufh",
-            title: "Teste do Mural",
-            description: "Descrição teste"
+            id: "kp2haa227u",
+            title: "First warning",
+            description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent interdum orci a mauris malesuada mollis. Donec hendrerit eros vel elit vestibulum auctor. In rhoncus, ex sit amet vulputate commodo, purus velit efficitur diam, at tempus metus orci ut neque. Nunc eu cursus ante, a fermentum magna. Suspendisse imperdiet iaculis ligula, a condimentum nisl iaculis a. Duis imperdiet, nunc quis ornare scelerisque, lorem massa molestie sem, sed ultrices lacus sem hendrerit erat. Etiam ac nulla eget tellus volutpat pretium."
         },
     ],
 
